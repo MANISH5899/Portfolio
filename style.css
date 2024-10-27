@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background-color: rgb(18, 18, 64);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: lightblue;
+    font-size: 1.04rem;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(63, 63, 117);
+    height: 1px;
+    margin: 80px 95px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+
+}
+
+.firstsection>div {
+    width: 30%;
+
+}
+
+.leftsection {
+    font-size: 2.3rem;
+
+}
+.leftsection .buttons{
+    padding: 40px 0;
+}
+.leftsection .btn {
+ padding: 12px;
+ background-color: #040442;
+ color: white;
+ border: 2px solid white;
+ border-radius: 6px;
+ font-size: 16px;
+ cursor: pointer;
+
+}
+
+.rightsection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(172, 120, 221);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(172, 120, 221);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.secondsection .box {
+    background-color: white;
+    width: 78vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+
+.secondsection .vartical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+
+.image-top {
+    width: 30px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+
+}
+
+.vartical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+
+}
+
+.vartical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+
+}
+
+footer {
+    background-color: #040442;
+   
+}
+
+.footer {
+    display: flex;
+    padding: 23px 123px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
